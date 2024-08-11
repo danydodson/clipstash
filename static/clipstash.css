@@ -1,11 +1,14 @@
-html,body {
+html,
+body {
     height: 100%;
     font-size: 14px !important;
 }
+
 body {
     display: flex;
     flex-direction: column;
 }
+
 footer {
     flex-shrink: 1;
     border-top: 1px solid #485fc74f;
@@ -15,10 +18,15 @@ footer {
     flex: 1 0 auto;
 }
 
-body,html,button,input[type="submit"] {
+body,
+html,
+button,
+input[type="submit"] {
     font-family: 'Ubuntu', sans-serif !important;
 }
-textarea,input[type="text"] {
+
+textarea,
+input[type="text"] {
     font-family: 'Fira Code', monospace !important;
 }
 

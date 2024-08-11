@@ -14,7 +14,7 @@ pub use service::ServiceError;
 use data::AppDatabase;
 use rocket::fs::FileServer;
 use rocket::{Build, Rocket};
-use web::{renderer::Renderer};
+use web::renderer::Renderer;
 use web::hitcounter::HitCounter;
 use domain::maintenance::Maintenance;
 

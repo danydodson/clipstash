@@ -1,5 +1,6 @@
-/target
-*.db*
-Cargo.lock
-.DS_Store
 .vscode
+.DS_Store
+*.db*
+/target
+Cargo.lock
+
